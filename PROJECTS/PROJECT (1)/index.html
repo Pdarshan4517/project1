@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar is star here============ -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <UL class="nav-links">
+            <li class="active"><a href="#" style="color: red;">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="learn"><a href="#">Contact Us</a></li>
+        </UL>
+        <img src="bars-solid.svg" alt="" class="menu-button">
+    </nav>
+    <header>
+        <div class="contain">
+            <h2>Explor The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="learn">Learn More</a>
+        </div>
+    </header>
+    <!-- events=============================== -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="eventspic">
+            <div class="eventspic1">
+                <img src="tgimg1.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, unde nam enim hic nihil quos!</p>
+                <a href="" class="learn">Learn More</a>
+            </div>
+            <div class="eventspic1">
+                <img src="tgimg2.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, unde nam enim hic nihil quos!</p>
+                <a href="" class="learn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- explore section================== -->
+    <section class="Explore">
+        <div class="explore-detail">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis, perferendis consequatur qui
+                dolores veniam!</P>
+            <a href="#" class="learn">Learn More</a>
+        </div>
+    </section>
+    <!-- Tours section======================== -->
+    <section class="Tours">
+        <div class="eventspic">
+            <div class="eventspic1 content-eventspic1">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sint reprehenderit sed corrupti
+                    deserunt? Dolorum!</p>
+                <a href="#" class="learn">Learn More</a>
+            </div>
+            <div class="eventspic1 image-eventspics">
+                <div class="image-album">
+                    <img src="img3.png" alt="" style="width: 250px;">
+                    <img src="img4.png" alt="" style="width: 250px;">
+                    <img src="img5.png" alt="" style="width: 250px;">
+                    <img src="img6.png" alt="" style="width: 250px;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fottor section===================== -->
+    <section class="footer">
+        <p>401 Amruta Arcade ,maninagar, ahmdavad|phone:000-154-000|Email-pdarsh2333@gmail.com</p>
+        <p>Copyright 2023 Outdoor Adventure</p>
+    </section>
+    <script>
+        const menubutton = document.querySelector('.menu-button')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubutton.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
