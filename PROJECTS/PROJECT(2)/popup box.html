@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="two"></div>
+    <button id="btn">xyz</button>
+    <!-- <script>
+        var btn=document.getElementById("btn")
+      btn.addEventListener("click",()=>{
+       var text 
+      var per=prompt("enter your feild")
+      if (per == "" || per == null) {
+       document.getElementById("two").innerHTML="enter your feild"
+      } else {
+        text="My Field is  "+ per 
+      }
+      document.getElementById("two").innerHTML=text
+
+    document.addEventListener("click")
+    })
+    </script> -->
+    <script>
+        var btn=document.getElementById("btn")
+        btn.addEventListener("click",()=>{
+            var text
+           
+            if (confirm(("How are you"))) {
+                text="ok"
+                
+            } else {
+                text="cancal"
+            }
+            document.getElementById("two").innerHTML=text
+        })
+    </script>
+</body>
+</html>
